@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eklavya Pandey | Portfolio</title>
+
+    <!-- ===== INTERNAL CSS ===== -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0f172a; /* Dark tech background */
+            color: #e5e7eb;
+        }
+
+        /* ===== NAVIGATION BAR ===== */
+        nav {
+            background-color: #020617;
+            padding: 12px 0;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #ffffff;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            color: #38bdf8;
+        }
+
+        header p {
+            margin: 5px 0;
+            color: #cbd5f5;
+        }
+
+        /* ===== SECTIONS ===== */
+        section {
+            background-color: #020617;
+            margin: 25px;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #38bdf8;
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* ===== BUTTON ===== */
+        button {
+            background-color: #38bdf8;
+            color: #020617;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #0ea5e9;
+        }
+
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #020617;
+            font-size: 14px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ===== NAV BAR ===== -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <h1>Eklavya Pandey</h1>
+        <p>B.Tech CSE (Core)</p>
+        <p>Aspiring Technologist & Problem Solver</p>
+        <p>Rungta International Skills University</p>
+    </header>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Enthusiastic Computer Science student with a strong interest in understanding
+            core concepts and solving logical problems. Passionate about learning new
+            technologies and applying them through practical projects.
+        </p>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (Basic)</li>
+            <li>C Programming (Basic)</li>
+            <li>Git & GitHub (Basic)</li>
+        </ul>
+    </section>
+
+    <!-- ===== PROJECT ===== -->
+    <section id="project">
+        <h2>Project</h2>
+        <h3>Web Development Mini Project – Personal Portfolio</h3>
+        <p>
+            A first semester level personal portfolio website developed using HTML,
+            internal CSS, and basic JavaScript following the academic syllabus.
+        </p>
+    </section>
+
+    <!-- ===== CERTIFICATES ===== -->
+    <section id="certificates">
+        <h2>Certifications & Workshops</h2>
+        <ul>
+            <li>GDG Workshop – HTML</li>
+            <li>HTML Online Certificate Course</li>
+            <li>CSS Online Certificate Course</li>
+        </ul>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:eklavyapandey2819@gmail.com">eklavyapandey2819@gmail.com</a></p>
+        <p>LinkedIn: Eklavya Pandey</p>
+        <p>GitHub: <a href="https://github.com/Eklavya2819" target="_blank">github.com/Eklavya2819</a></p>
+        <br>
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        © 2026 Eklavya Pandey | First Semester Web Development Mini Project
+    </footer>
+
+    <!-- ===== INTERNAL JS ===== -->
+    <script>
+        function showMessage() {
+            alert("Thank you for visiting my portfolio!");
+        }
+    </script>
+
+</body>
+</html>
